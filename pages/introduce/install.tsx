@@ -9,7 +9,12 @@ const Page: NextPageWithLayout = () => {
     <>
       <h2>Introduce - Installing</h2>
       <section className="group">
-        <h3>How to install and setup AG-Grid</h3>
+        <h3>Installing dependencies</h3>
+        <p>
+          To use grid we need add 2 dependencies to project:{" "}
+          <span className="littleCode"> ag-grid-community</span>{" "}
+          <span className="littleCode"> ag-grid-react</span>.
+        </p>
         <CopyBlock
           text={`npm install --save ag-grid-community ag-grid-react`}
           language="tsx"
@@ -18,6 +23,11 @@ const Page: NextPageWithLayout = () => {
           theme={codepen}
         />
         <br />
+        <h3>Adding styling to project</h3>
+        <p>
+          We need import necessary base and theme CSS files to global style
+          file.
+        </p>
         <CopyBlock
           text={`import 'ag-grid-community/styles/ag-grid.css';
  import 'ag-grid-community/styles/ag-theme-alpine.css';
