@@ -67,6 +67,10 @@ section.group {
   box-shadow: 4px 4px 2px 1px #a50000;
 }
 
+section ul li {
+  padding: 5px 0;
+}
+
 footer {
   padding: 0 20px;
   margin-top: 40px;
@@ -88,4 +92,18 @@ span.littleCode {
   padding: 0 8px;
   border-radius: 8px;
   border: 1px solid rgb(179, 161, 161);
+}
+
+.linkToExercise {
+  display: block;
+  width: fit-content;
+  background: gray;
+  box-shadow: 4px 4px 2px 1px #616161;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+}
+.linkToExercise:hover {
+  background: darkgray;
 }

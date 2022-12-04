@@ -33,7 +33,7 @@ const Page: NextPageWithLayout = () => {
  import 'ag-grid-community/styles/ag-theme-alpine.css';
 `}
           language="tsx"
-          showLineNumbers={true}
+          showLineNumbers={false}
           wrapLines
           theme={codepen}
         />
