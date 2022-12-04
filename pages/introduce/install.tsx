@@ -1,12 +1,13 @@
 import type { ReactElement } from "react";
 import { CopyBlock, codepen } from "react-code-blocks";
+import Footer from "../../components/footer";
 import Layout from "../../components/layout";
 import { NextPageWithLayout } from "../_app";
 
 const Page: NextPageWithLayout = () => {
   return (
     <>
-      <h2>Introduce -&gt; Installing</h2>
+      <h2>Introduce - Installing</h2>
       <section className="group">
         <h3>How to install and setup AG-Grid</h3>
         <CopyBlock
@@ -27,6 +28,7 @@ const Page: NextPageWithLayout = () => {
           theme={codepen}
         />
       </section>
+      <Footer backLink="/" nextLink="/colDef/rowData" />
     </>
   );
 };

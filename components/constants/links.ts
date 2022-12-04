@@ -88,6 +88,6 @@ export const NAVIGATION_LINKS: NavigationLinkGroup[] = [
         path: "/styling/themes",
       },
     ],
-    groupName: "Cell Editing",
+    groupName: "Styling",
   },
 ];

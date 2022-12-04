@@ -1,9 +1,24 @@
 import type { ReactElement } from "react";
+import Footer from "../../components/footer";
 import Layout from "../../components/layout";
 import { NextPageWithLayout } from "../_app";
 
 const Page: NextPageWithLayout = () => {
-  return <p>Default Column Definition</p>;
+  return (
+    <>
+      <h2>Column Definition - Default Column Definition</h2>
+      <section className="group">
+        <h3>section</h3>
+      </section>
+      <section className="group">
+        <h3>section</h3>
+      </section>
+      <section className="group">
+        <h3>section</h3>
+      </section>
+      <Footer backLink="/colDef/rowSorting" nextLink="/colDef/filtering" />
+    </>
+  );
 };
 
 Page.getLayout = function getLayout(page: ReactElement) {
