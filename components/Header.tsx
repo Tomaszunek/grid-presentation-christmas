@@ -5,11 +5,12 @@ import { NAVIGATION_LINKS } from "./constants/links";
 export default function Header() {
   return (
     <header>
+      <h1>AG-Grid - Best Grid library? - Christmas edition</h1>
       <nav>
         <ul>
           {NAVIGATION_LINKS.map((group) => {
             return (
-              <>
+              <React.Fragment key={group.groupName}>
                 <li key={group.groupName}>{group.groupName}</li>
                 <ol>
                   {group.groupItems.map((navItem) => {
@@ -20,7 +21,7 @@ export default function Header() {
                     );
                   })}
                 </ol>
-              </>
+              </React.Fragment>
             );
           })}
         </ul>

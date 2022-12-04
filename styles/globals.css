@@ -5,7 +5,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background: #cc231e;
-  color: white;
 }
 
 a {
@@ -17,12 +16,45 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+#__next {
+  width: 75vw;
+  margin: auto;
+}
+
+header {
+  background: white;
+  padding: 5px 30px 10px 30px;
+  margin: 20px;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+header h1 {
+  color: #cc231e;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  padding-left: 50px;
+}
+
+h3 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+header a {
+  color: blue;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+section.group {
+  background: white;
+  padding: 15px 30px 10px 30px;
+  margin: 20px;
+  border-radius: 30px;
 }
