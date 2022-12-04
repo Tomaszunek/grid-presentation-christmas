@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import Footer from "../../components/footer";
+import Footer from "../../components/Footer";
 import Layout from "../../components/layout";
 import { NextPageWithLayout } from "../_app";
 
