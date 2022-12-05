@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import { codepen, CopyBlock } from "react-code-blocks";
+import { a11yDark, CopyBlock } from "react-code-blocks";
 import HideSolution from "../../components/constants/Solution";
 import Footer from "../../components/Footer";
 import Layout from "../../components/layout";
@@ -29,7 +29,7 @@ const Page: NextPageWithLayout = () => {
           language="jsx"
           showLineNumbers={false}
           wrapLines
-          theme={codepen}
+          theme={a11yDark}
         />
         <p>And define column data</p>
         <CopyBlock
@@ -55,7 +55,7 @@ const Page: NextPageWithLayout = () => {
           language="jsx"
           showLineNumbers={false}
           wrapLines
-          theme={codepen}
+          theme={a11yDark}
         />
         <p>
           To define simplest <span className="littleCode">columnDefs</span> we
@@ -93,7 +93,7 @@ const Page: NextPageWithLayout = () => {
           language="jsx"
           showLineNumbers={false}
           wrapLines
-          theme={codepen}
+          theme={a11yDark}
         />
       </section>
       <section className="group">
@@ -113,7 +113,7 @@ const Page: NextPageWithLayout = () => {
           language="jsx"
           showLineNumbers={false}
           wrapLines
-          theme={codepen}
+          theme={a11yDark}
         />
         <br />
         <CopyBlock
@@ -121,7 +121,7 @@ const Page: NextPageWithLayout = () => {
           language="jsx"
           showLineNumbers={false}
           wrapLines
-          theme={codepen}
+          theme={a11yDark}
         />
         <br />
         <CopyBlock
@@ -129,7 +129,7 @@ const Page: NextPageWithLayout = () => {
           language="jsx"
           showLineNumbers={false}
           wrapLines
-          theme={codepen}
+          theme={a11yDark}
         />
       </section>
       <section className="group">
@@ -180,7 +180,7 @@ const Page: NextPageWithLayout = () => {
             language="jsx"
             showLineNumbers={false}
             wrapLines
-            theme={codepen}
+            theme={a11yDark}
           />
         </HideSolution>
       </section>

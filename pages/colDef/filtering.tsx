@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import { codepen, CopyBlock } from "react-code-blocks";
+import { a11yDark, CopyBlock } from "react-code-blocks";
 import HideSolution from "../../components/constants/Solution";
 import Footer from "../../components/Footer";
 import Layout from "../../components/layout";
@@ -26,7 +26,7 @@ const Page: NextPageWithLayout = () => {
           language="jsx"
           showLineNumbers={false}
           wrapLines
-          theme={codepen}
+          theme={a11yDark}
         />
         <h3>Number Filter</h3>
         <br />
@@ -42,7 +42,7 @@ const Page: NextPageWithLayout = () => {
           language="jsx"
           showLineNumbers={false}
           wrapLines
-          theme={codepen}
+          theme={a11yDark}
         />
         <h3>Date Filter</h3>
         <br />
@@ -58,7 +58,7 @@ const Page: NextPageWithLayout = () => {
           language="jsx"
           showLineNumbers={false}
           wrapLines
-          theme={codepen}
+          theme={a11yDark}
         />
         <h3>Set Filter</h3>
         <p>4th filter is SetFilter which is enterprise only.</p>
@@ -74,7 +74,7 @@ const Page: NextPageWithLayout = () => {
           language="jsx"
           showLineNumbers={false}
           wrapLines
-          theme={codepen}
+          theme={a11yDark}
         />
         <p>
           Of course we can set filters as default in{" "}
@@ -169,7 +169,7 @@ const Page: NextPageWithLayout = () => {
             language="jsx"
             showLineNumbers={false}
             wrapLines
-            theme={codepen}
+            theme={a11yDark}
           />
         </HideSolution>
       </section>

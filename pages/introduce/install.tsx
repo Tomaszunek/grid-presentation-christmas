@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import { CopyBlock, codepen } from "react-code-blocks";
+import { CopyBlock, a11yDark } from "react-code-blocks";
 import Footer from "../../components/Footer";
 import Layout from "../../components/layout";
 import { NextPageWithLayout } from "../_app";
@@ -20,7 +20,7 @@ const Page: NextPageWithLayout = () => {
           language="tsx"
           showLineNumbers={false}
           wrapLines
-          theme={codepen}
+          theme={a11yDark}
         />
         <br />
         <h3>Adding styling to project</h3>
@@ -35,7 +35,7 @@ const Page: NextPageWithLayout = () => {
           language="tsx"
           showLineNumbers={false}
           wrapLines
-          theme={codepen}
+          theme={a11yDark}
         />
       </section>
       <Footer backLink="/" nextLink="/colDef/rowData" />

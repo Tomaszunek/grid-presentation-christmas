@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import { codepen, CopyBlock } from "react-code-blocks";
+import { a11yDark, CopyBlock } from "react-code-blocks";
 import HideSolution from "../../components/constants/Solution";
 import Footer from "../../components/Footer";
 import Layout from "../../components/layout";
@@ -37,7 +37,7 @@ const Page: NextPageWithLayout = () => {
             language="jsx"
             showLineNumbers={false}
             wrapLines
-            theme={codepen}
+            theme={a11yDark}
           />
         </p>
       </section>
@@ -81,7 +81,7 @@ const Page: NextPageWithLayout = () => {
             language="jsx"
             showLineNumbers={false}
             wrapLines
-            theme={codepen}
+            theme={a11yDark}
           />
         </HideSolution>
       </section>
