@@ -11,10 +11,10 @@ const Page: NextPageWithLayout = () => {
         <h3>section</h3>
       </section>
       <section className="group">
-        <h3>section</h3>
+        <h3>Exercise</h3>
       </section>
       <section className="group">
-        <h3>section</h3>
+        <h3>Solution</h3>
       </section>
       <Footer backLink="/styling/rowStyling" />
     </>
