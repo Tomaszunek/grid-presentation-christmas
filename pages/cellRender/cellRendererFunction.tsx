@@ -3,6 +3,7 @@ import { a11yDark, CopyBlock } from "react-code-blocks";
 import HideSolution from "../../components/constants/Solution";
 import Footer from "../../components/Footer";
 import Layout from "../../components/layout";
+import LittleCodeSpan from "../../components/littleCodeSpan";
 import { NextPageWithLayout } from "../_app";
 
 const Page: NextPageWithLayout = () => {
@@ -11,6 +12,21 @@ const Page: NextPageWithLayout = () => {
       <h2>Cell Rendering - Cell Renderer Function</h2>
       <section className="group">
         <h3>Cell renderer function</h3>
+        <ul>
+          <li>
+            After the value for a cell is determined, and we have optionally
+            formatted the value, we can use a cell renderer to have full control
+            of how a cell is rendered in AG Grid.
+          </li>
+          <li>
+            We should use <LittleCodeSpan>cellRendererFunction</LittleCodeSpan>{" "}
+            only if we need it to not decrease grid performance
+          </li>
+        </ul>
+        <p>
+          <LittleCodeSpan>cellRendererFunction</LittleCodeSpan> interface looks
+          like that:
+        </p>
         <CopyBlock
           text={`export type ICellRendererParams<TData = any, TValue = any> = {
   /** The grid api. */
@@ -65,11 +81,50 @@ const Page: NextPageWithLayout = () => {
           wrapLines
           theme={a11yDark}
         />
+        <p>
+          Example of <LittleCodeSpan>cellRenderer</LittleCodeSpan> looks like
+          that:
+        </p>
+        <br />
+        <CopyBlock
+          text={`cellRenderer: (params) => {
+  if (params.value === undefined) {
+    return null;
+  }
+  return new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+  }).format(params.value);
+},`}
+          language="jsx"
+          showLineNumbers={false}
+          wrapLines
+          theme={a11yDark}
+        />
       </section>
       <section className="group">
         <h3>Exercise</h3>
+        <p>
+          Santa wants to have list of gifts for children, everyone needs be in
+          single line
+        </p>
         <ol>
-          <li></li>
+          <li>
+            we need to add <LittleCodeSpan>gifts colDef</LittleCodeSpan> to{" "}
+            <LittleCodeSpan>columnDef</LittleCodeSpan>
+          </li>
+          <li>
+            we should add <LittleCodeSpan>cellRenderer</LittleCodeSpan> function{" "}
+          </li>
+          <li>
+            <LittleCodeSpan>cellRenderer</LittleCodeSpan> should return{" "}
+            <LittleCodeSpan>ul</LittleCodeSpan> and render{" "}
+            <LittleCodeSpan>li</LittleCodeSpan> for every gift
+          </li>
+          <li>
+            <LittleCodeSpan>width</LittleCodeSpan> should be set to see whole
+            gift name
+          </li>
         </ol>
       </section>
       <section className="group">
