@@ -75,7 +75,7 @@ const Page: NextPageWithLayout = () => {
           </li>
           <li>
             add property <LittleCodeSpan>pinned</LittleCodeSpan> with value{" "}
-            <LittleCodeSpan>"left"</LittleCodeSpan> to{" "}
+            <LittleCodeSpan>&quot;left&quot;</LittleCodeSpan> to{" "}
             <LittleCodeSpan>fullname</LittleCodeSpan> column definition to move
             it to pinned left section
           </li>

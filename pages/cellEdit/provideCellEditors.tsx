@@ -16,23 +16,25 @@ const Page: NextPageWithLayout = () => {
         <p>AG-Grid provides couple of buildin cell editors:</p>
         <ul>
           <li>
-            Text editor - <LittleCodeSpan>"agTextCellEditor"</LittleCodeSpan>
+            Text editor -{" "}
+            <LittleCodeSpan>&quot;agTextCellEditor&quot;</LittleCodeSpan>
           </li>
           <li>
             Large text editor -{" "}
-            <LittleCodeSpan>"agLargeTextCellEditor"</LittleCodeSpan>
+            <LittleCodeSpan>&quot;agLargeTextCellEditor&quot;</LittleCodeSpan>
           </li>
           <li>
-            Date editor - <LittleCodeSpan>"agDateCellEditor"</LittleCodeSpan>
+            Date editor -{" "}
+            <LittleCodeSpan>&quot;agDateCellEditor&quot;</LittleCodeSpan>
           </li>
           <li>
             Select editor -{" "}
-            <LittleCodeSpan>"agSelectCellEditor"</LittleCodeSpan>
+            <LittleCodeSpan>&quot;agSelectCellEditor&quot;</LittleCodeSpan>
           </li>
           <li>
             Rich select editor -{" "}
-            <LittleCodeSpan>"agRichSelectCellEditor"</LittleCodeSpan>(only for
-            enterprise license)
+            <LittleCodeSpan>&quot;agRichSelectCellEditor&quot;</LittleCodeSpan>
+            (only for enterprise license)
           </li>
         </ul>
         <p>
