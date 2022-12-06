@@ -16,6 +16,7 @@ export default function HideSolution({ children }: HideSolutionProps) {
       <button className="linkToExercise" onClick={handleToggleVisibility}>
         {textButton}
       </button>
+      <br />
       {hide ? null : children}
     </>
   );
