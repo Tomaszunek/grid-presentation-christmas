@@ -83,10 +83,6 @@ export const NAVIGATION_LINKS: NavigationLinkGroup[] = [
         name: "Row Styling",
         path: "/styling/rowStyling",
       },
-      {
-        name: "Themes",
-        path: "/styling/themes",
-      },
     ],
     groupName: "Styling",
   },

@@ -3,6 +3,7 @@ import { a11yDark, CopyBlock } from "react-code-blocks";
 import HideSolution from "../../components/constants/Solution";
 import Footer from "../../components/Footer";
 import Layout from "../../components/layout";
+import LinkToExercise from "../../components/LinkToExercise";
 import LittleCodeSpan from "../../components/littleCodeSpan";
 import { NextPageWithLayout } from "../_app";
 
@@ -104,6 +105,7 @@ const Page: NextPageWithLayout = () => {
       </section>
       <section className="group">
         <h3>Exercise</h3>
+        <LinkToExercise linkToExercise="https://stackblitz.com/edit/vitejs-vite-fwpcmg?file=src%2FGrid.tsx" />
         <p>
           Santa wants to have list of gifts for children, everyone needs be in
           single line

@@ -150,7 +150,7 @@ const Page: NextPageWithLayout = () => {
             <span className="littleCode">AgGridReact</span>
           </li>
         </ol>
-        <LinkToExercise linkToExercise="" />
+        <LinkToExercise linkToExercise="https://stackblitz.com/edit/vitejs-vite-pk5qoj?file=package.json" />
       </section>
       <section className="group">
         <h3>Solution</h3>

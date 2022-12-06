@@ -9,7 +9,7 @@ export default function LinkToExercise({
   linkToExercise,
 }: LinkToExerciseProps) {
   return (
-    <Link className="linkToExercise" href={linkToExercise}>
+    <Link className="linkToExercise" href={linkToExercise} target="_blank">
       Stackblitz Exercise
     </Link>
   );

@@ -3,6 +3,7 @@ import { a11yDark, CopyBlock } from "react-code-blocks";
 import HideSolution from "../../components/constants/Solution";
 import Footer from "../../components/Footer";
 import Layout from "../../components/layout";
+import LinkToExercise from "../../components/LinkToExercise";
 import { NextPageWithLayout } from "../_app";
 
 const Page: NextPageWithLayout = () => {
@@ -34,6 +35,7 @@ const Page: NextPageWithLayout = () => {
       </section>
       <section className="group">
         <h3>Exercise</h3>
+        <LinkToExercise linkToExercise="https://stackblitz.com/edit/vitejs-vite-higywt?file=src%2FGrid.tsx" />
         <p>Santa changes his mind and wants to possible to sort every column</p>
         <ol>
           <li>
