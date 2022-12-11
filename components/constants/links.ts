@@ -86,4 +86,13 @@ export const NAVIGATION_LINKS: NavigationLinkGroup[] = [
     ],
     groupName: "Styling",
   },
+  {
+    groupItems: [
+      {
+        name: "Presentation helpers",
+        path: "/helpers",
+      },
+    ],
+    groupName: "Helpers",
+  },
 ];
