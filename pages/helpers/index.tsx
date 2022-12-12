@@ -47,7 +47,7 @@ const Page: NextPageWithLayout = () => {
         />
         <h3>Value getter</h3>
         <CopyBlock
-          text={`valueGetter: ({}}: ValueGetterParams<GiftRequest>) =>`}
+          text={`valueGetter: ({}: ValueGetterParams<GiftRequest>) =>`}
           language="jsx"
           showLineNumbers={false}
           wrapLines
